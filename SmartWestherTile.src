@@ -192,7 +192,7 @@ def installed() {
 
 def schedulePoll() {
     unschedule()
-    runEvery3Hours("poll")
+    runEvery30Minutes("poll")
 }
 
 def updated() {
